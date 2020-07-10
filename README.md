@@ -1,2 +1,2 @@
-# Faulty-Node-Detection
-Faulty Node Detection
+# Faulty node detection in a consensus network
+This project considers the problem of designing an algorithm to diagnose a faulty node in an average consensus network. A consensus network consist of a node set and connections through which the nodes are able to communicate.The goal of a such network is for the nodes to reach the average of their initial decisions. This project deals with a situation where one of the nodes starts to behave abnormally. A framework is proposed where a node is assigned to be the network’s safeguard. The safeguard node uses a Kalman ﬁlter to located the abnormal node using hypothesis testing and also to detect and compensate for the abnormal behavior.
